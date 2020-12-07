@@ -16,5 +16,4 @@ rootdir
     │    └── train.py
     │
     └── README
-
 ```
