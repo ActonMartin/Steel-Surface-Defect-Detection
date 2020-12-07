@@ -25,4 +25,4 @@ The images in the dataset are of size 256x1600. The folder **UNET_128X800_image*
 Wandb is used here to log the losses, accurcies, scores and some input images along with its outputs. The wandb report can be referred [here](https://wandb.ai/manoj-s/Steel_Defect_Detection?workspace=user-manoj-s).
 
 ## Results Tabulation
-![Results Tabulation](https://github.com/Manoj-152/Steel-Surface-Defect-Detection/Result_Tabulation.png)
+![Results Tabulation](https://github.com/Manoj-152/Steel-Surface-Defect-Detection/blob/main/Result_Tabulation.png)
