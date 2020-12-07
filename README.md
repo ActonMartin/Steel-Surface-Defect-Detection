@@ -15,7 +15,8 @@ rootdir
     │    ├── model.py
     │    └── train.py
     │
-    └── README.md
+    ├── README.md
+    └── Result_Tabulation.png
 ```
 
 ## About the Code:
