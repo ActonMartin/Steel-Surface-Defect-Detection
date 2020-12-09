@@ -1,3 +1,5 @@
+## Overview of the Implementation
+
 Considering that we are utilising this model on a large factory containing multiple production units, its very important that the proposed technicque is fast, and memory efficient without comprimising too much on the performance. 
 
 Having the UNet architecture in mind, we perform the following modifications:
@@ -10,3 +12,6 @@ Having the UNet architecture in mind, we perform the following modifications:
 All these above changes ensured that the model as mentioned in the Unet experiment is made twice as deeper with less than half the number of parameters. However do note that the model's performance is lower than the Unet while being almost 20 times faster than the other experiments.
 
 We train the model with an objective to minimize the lovasz softmax and a weighted BCE loss. All code relevant to this experiment can be found in this directory.
+
+## Results Tabulation
+![Results Tabulation](https://github.com/Manoj-152/Steel-Surface-Defect-Detection/blob/main/Model2_Modified_UNET/Results_Tabulation.png)
