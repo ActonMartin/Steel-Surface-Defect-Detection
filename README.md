@@ -1,5 +1,6 @@
 # Steel-Surface-Defect-Detection
-This project involves performing semantic segmentation on pictures of steel surfaces to classify and localize the surface defects using the UNET architecture. The dataset for this project is taken from [Kaggle](https://www.kaggle.com/c/severstal-steel-defect-detection) which contains about 12000 train images and 6000 test images(more information is available on the Kaggle website).
+
+Project on steel defect detection for the Artificial Intelligence in Manufacturing course offered in IIT Madras. This project involves performing semantic segmentation on pictures of steel surfaces to classify and localize the surface defects using the UNET architecture. The dataset for this project is taken from [Kaggle](https://www.kaggle.com/c/severstal-steel-defect-detection) which contains about 12000 train images and 6000 test images(more information is available on the Kaggle website).
 
 ## Files Present
 
@@ -32,6 +33,8 @@ Wandb is used here to log the losses, accurcies, scores and some input images al
 
 ## Results Tabulation
 ![Results Tabulation](https://github.com/Manoj-152/Steel-Surface-Defect-Detection/blob/main/Result_Tabulation.png)
+
+## Experiments
 
 We also perform one other experiment focused on the speed and memory efficiency of the model. We were able to make the model twice as deeper, while having less than half the number of parameters as the above. Please note that this model does not perform as well the previous Unet but is over 20 times faster. All code relevant to this experiment can be found [here](./expts/).
 
