@@ -15,7 +15,7 @@ rootdir
     │    ├── dataloader.py
     │    ├── model.py
     │    └── train.py
-    ├── expts/
+    ├── Model2_Modified_UNET/
     │    ├── dataset.py
     │    ├── model.py
     |    ├── lovasz_softmax.py
@@ -36,7 +36,7 @@ Wandb is used here to log the losses, accurcies, scores and some input images al
 
 ## Experiments
 
-We also perform one other experiment focused on the speed and memory efficiency of the model. We were able to make the model twice as deeper, while having less than half the number of parameters as the above. Please note that this model does not perform as well the previous Unet but is over 20 times faster. All code relevant to this experiment can be found [here](./expts/).
+We also perform one other experiment focused on the speed and memory efficiency of the model. We were able to make the model twice as deeper, while having less than half the number of parameters as the above. Please note that this model does not perform as well the previous Unet but is over 20 times faster. All code relevant to this experiment can be found [here](./Model2_Modified_UNET/).
 
 ## Conclusion
 
